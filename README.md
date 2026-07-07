@@ -4,6 +4,8 @@
 
 `ipcc-plotting-style` is a self-contained Codex/Claude skill distilled from public IPCC-WG1 figure and chapter code. It helps generate, adapt, and review climate-science figures with IPCC-like visual conventions, especially for climate change hydrology: precipitation change, runoff response, drought and flood risk, snow and ice shifts, regional water stress, ensemble uncertainty, and scenario comparison.
 
+The README hero image was generated with APIYI's OpenAI-compatible `gpt-image-2` endpoint using the prompt saved in `assets/hero_prompt_apiyi_gpt_image2.txt`.
+
 The skill does not try to reproduce every original IPCC figure. Instead, it turns the public IPCC-WG1 plotting codebase into a searchable style and provenance library. A user can ask for an IPCC-style map, scenario time series, uncertainty band, ensemble boxplot, heatmap, or multi-panel figure; the skill retrieves relevant IPCC evidence before producing plotting code.
 
 ## Why This Matters
@@ -88,4 +90,3 @@ The retrieval engine is lightweight keyword search, not an embedding database. I
 ## License and Attribution
 
 This repository packages derived indexes, distilled guidance, and code-only excerpts from public IPCC-WG1 source repositories for research and educational use. Upstream source files retain their original provenance and licensing. When using specific code patterns, cite the source repository and file path surfaced by the RAG result.
-
