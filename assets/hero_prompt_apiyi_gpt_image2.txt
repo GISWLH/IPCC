@@ -1,0 +1,12 @@
+Use case: scientific-educational
+Asset type: GitHub README hero image
+Primary request: minimalist cartoon concept image about climate change and Earth for an IPCC plotting style skill
+Scene/backdrop: pure white background
+Subject: a friendly simplified Earth globe with small climate and hydrology symbols around it, including a raindrop, river curve, snowflake, sun, cloud, thermometer, and tiny chart line
+Style/medium: clean flat vector-like raster illustration, white background, cartoon minimalist, soft rounded shapes, modern scientific communication style
+Composition/framing: centered wide hero composition, generous whitespace, balanced icons orbiting the globe, no borders
+Lighting/mood: bright, clear, calm, optimistic, educational
+Color palette: restrained IPCC-inspired climate palette with blue, teal, green, warm orange, and muted red accents
+Text: no text
+Constraints: no logos, no watermark, no photorealism, no dark background, no complex details, no clutter, no political symbols
+

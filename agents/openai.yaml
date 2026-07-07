@@ -1,0 +1,4 @@
+interface:
+  display_name: "IPCC Plotting Style"
+  short_description: "IPCC-style climate figure generation"
+  default_prompt: "Use $ipcc-plotting-style to make this climate figure in IPCC style with source-grounded examples."

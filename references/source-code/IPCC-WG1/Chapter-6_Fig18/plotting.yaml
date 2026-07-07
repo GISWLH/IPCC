@@ -1,0 +1,43 @@
+
+color:
+  ssp-type:
+    SSP3-7.0: "AR6-SSP3-7.0"
+    SSP3-LowNTCF: "AR6-SSP3-LowNTCF"
+    Historical: black
+    SSP4-3.4: "AR6-SSP4-3.4"
+    SSP4-6.0: "AR6-SSP4-6.0"
+    SSP1-1.9: "AR6-SSP1-1.9"
+    SSP1-2.6: "AR6-SSP1-2.6"
+    SSP2-4.5: "AR6-SSP2-4.5"
+    RCPs Range: black
+    ECLIPSE_Ev5a Range: purple
+    SSP5-3.4-OS: "AR6-SSP5-3.4-OS"
+    SSP5-8.5: "AR6-SSP5-8.5"
+    GAINS: "lightpink"
+
+linestyle:
+  type:
+    CMIP5: '--'
+    CMIP6: '-'
+    EDGAR: 'dotted'
+    ECLIPSE_Ev5a: 'dashdot'
+    Historical: '-'
+    '': '-'
+    CEDS: '-'
+    Ref: '-'
+    LowNTCF: '--'
+    '1.9': '-'
+    '2.6': '-'
+    '3.4': '-'
+    '3.4-OS': '-'
+    '4.5': '-'
+    '6.0': '-'
+    '7.0': '-'
+    '8.5': '-'
+  
+
+exec: 
+  -
+    file: add_categories.py
+    functions:
+      - add_categories

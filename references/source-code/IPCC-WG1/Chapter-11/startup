@@ -1,0 +1,75 @@
+#!/bin/bash
+
+# configuration
+
+dest_env=ipcc_ar6
+
+# change to true to show which packages are installed with 'pip -e'
+check_devel=true
+
+# maybe print hostname
+# can be helpful to ensure you run on a server
+print_hostname=true
+
+port=55000
+
+# ========================
+
+# show help
+if [ "$0" = "$BASH_SOURCE" ] && [ "$1" != "n" ] && [ "$1" != "r" ] ; then
+	echo USAGE
+
+	echo "source the file as 'source startup' to load the conda environment"
+	echo ""
+	echo "run as './startup n' to start jupyter notebook"
+    echo "run as './startup r' to start jupyter notebook without browser (for remote)"
+
+	exit 1
+fi
+
+# maybe print hostname
+if [ $print_hostname = true ]; then
+	echo ""
+        echo "================================================================================="
+	echo " HOST: ${HOSTNAME}"
+        echo "================================================================================="
+	echo ""
+fi
+
+# load conda module
+module load conda
+
+
+# check if environment already loaded & only load if necessary
+if [ -z ${CONDA_DEFAULT_ENV+x} ] || [ $CONDA_DEFAULT_ENV != "${dest_env}" ]; then
+
+	echo "Loding Conda environment: ${dest_env}"
+
+        # load the conda environment
+	source activate ${dest_env}
+	
+	echo " done"
+
+	# check if packages are installed in dev mode (pip install -e <package>)
+	if [ $check_devel = true ]; then
+	        echo ""
+		echo "The following packages are in development mode:"
+		conda list | grep '<develop>' | awk '{print $1}'
+        echo
+    fi
+else
+	echo "Conda environment already loaded -- skipping"
+fi
+
+# open jupyter notebook
+if [ "$1" = "n" ]; then
+  jupyter notebook --browser=chromium
+fi
+
+if [ "$1" = "r" ]; then
+  echo "Use the following to tunnel the notebook (CHECK PORT NUMBERS)"
+  echo "ssh -f -N -L localhost:8888:localhost:$port ${HOSTNAME}"
+  echo
+
+  jupyter notebook --no-browser --port ${port}
+fi

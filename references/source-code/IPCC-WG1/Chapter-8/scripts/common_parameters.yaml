@@ -1,0 +1,30 @@
+# This file (common_parameters.yaml) includes parameters that we wish
+# to pre-pend to the parameters file provided to job launcher
+# $CAMMAC/jobs/job_pm.sh (pre-pending implies that they have lower
+# priority)
+
+# This actually happens for calls to job_pm.sh which are done by
+# scripts colocated with the present file.
+
+# It contains those parameters which value is usefully shared among
+# co-located scripts. Current values are for the actual AR6/WGI
+# figure production run
+
+# Creator : Stéphane Sénési stejase@laposte.net
+# Version date : 20210328
+
+data_versions_dir          : /data/ssenesi/CAMMAC/data
+data_versions_tag          : 20210201_derived
+default_fixed_fields_dir   : /data/ssenesi/CAMMAC/data/fixed_fields
+
+# Tell CAMMAC where we put derived variables, here the yearly statistics of daily variables
+# derived_variables_pattern  can be set to null if this feature is not used
+
+derived_variable_table     : 'yr'
+derived_variables_pattern  : /data/ssenesi/CMIP6_derived_variables/${variable}/${variable}_${table}_${model}_${experiment}_${realization}_${grid}_${version}_${PERIOD}.nc
+
+do_test                    : False
+
+# a dummy setting is syntactically necessary if there is no other setting
+dummy : null
+
