@@ -1,0 +1,1929 @@
+{
+  "method": "Explicit repository-name targets; panel suffixes collapsed; numbered bundles expanded; chapter/box/FAQ scopes preserved. Code availability is assessed at repository level, not per panel.",
+  "metrics": {
+    "upstream_repositories": 135,
+    "figure_specific_repositories": 121,
+    "figure_specific_repositories_with_bundled_code": 64,
+    "named_figure_targets": 122,
+    "targets_in_repositories_with_bundled_code": 65,
+    "index_records": 13219,
+    "code_and_notebook_records": 3465,
+    "bundled_source_files": 1141,
+    "plot_families": 9
+  },
+  "paper_count": null,
+  "paper_count_note": "No deduplicated paper bibliography is distributed; a paper count cannot be established from this corpus.",
+  "figure_targets": [
+    {
+      "label": "Chapter 10 / CCB4 / Figure 1",
+      "repositories": [
+        "Chapter-10_CCB4_Fig1"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 10",
+      "repositories": [
+        "Chapter-10_Fig10"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 11",
+      "repositories": [
+        "Chapter-10_Fig11"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 12",
+      "repositories": [
+        "Chapter-10_Fig12"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 13",
+      "repositories": [
+        "Chapter-10_Fig13"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 18",
+      "repositories": [
+        "Chapter-10_Fig18"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 19",
+      "repositories": [
+        "Chapter-10_Fig19"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 20",
+      "repositories": [
+        "Chapter-10_Fig20"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 21",
+      "repositories": [
+        "Chapter-10_Fig21"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 10 / Figure 6",
+      "repositories": [
+        "Chapter-10_Fig06"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 2 / Figure 10",
+      "repositories": [
+        "Chapter-2_Fig10"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 11",
+      "repositories": [
+        "Chapter-2_Fig11"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 12",
+      "repositories": [
+        "Chapter-2_Fig12"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 13",
+      "repositories": [
+        "Chapter-2_Fig13"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 14",
+      "repositories": [
+        "Chapter-2_Fig14"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 15",
+      "repositories": [
+        "Chapter-2_Fig15"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 16",
+      "repositories": [
+        "Chapter-2_Fig16"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 17",
+      "repositories": [
+        "Chapter-2_Fig17"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 18",
+      "repositories": [
+        "Chapter-2_Fig18"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 19",
+      "repositories": [
+        "Chapter-2_Fig19"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 2",
+      "repositories": [
+        "Chapter-2_Fig02"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 23",
+      "repositories": [
+        "Chapter-2_Fig23"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 27",
+      "repositories": [
+        "Chapter-2_Fig27"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 28",
+      "repositories": [
+        "Chapter-2_Fig28"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 2 / Figure 29",
+      "repositories": [
+        "Chapter-2_Fig29"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 3",
+      "repositories": [
+        "Chapter-2_Fig03"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 31",
+      "repositories": [
+        "Chapter-2_Fig31"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 35",
+      "repositories": [
+        "Chapter-2_Fig35"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 36",
+      "repositories": [
+        "Chapter-2_Fig36"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 37",
+      "repositories": [
+        "Chapter-2_Fig37"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 38",
+      "repositories": [
+        "Chapter-2_Fig38"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 7",
+      "repositories": [
+        "Chapter-2_Fig07"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 8",
+      "repositories": [
+        "Chapter-2_Fig08"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 2 / Figure 9",
+      "repositories": [
+        "Chapter-2_Fig09"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 3 / CCBOX3.1 / Figure 1",
+      "repositories": [
+        "Chapter-3_CCBOX3.1_Fig1"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / CCBOX3.2 / Figure 1",
+      "repositories": [
+        "Chapter-3_CCBOX3.2_Fig1"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / FAQ2 / Figure 1",
+      "repositories": [
+        "Chapter-3_FAQ2_Fig01"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 3 / FAQ3 / Figure 1",
+      "repositories": [
+        "Chapter-3_FAQ3_Fig01"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 10",
+      "repositories": [
+        "Chapter-3_Fig10"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 11",
+      "repositories": [
+        "Chapter-3_Fig11"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 3 / Figure 12",
+      "repositories": [
+        "Chapter-3_Fig12"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 13",
+      "repositories": [
+        "Chapter-3_Fig13"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 14",
+      "repositories": [
+        "Chapter-3_Fig14"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 15",
+      "repositories": [
+        "Chapter-3_Fig15"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 16",
+      "repositories": [
+        "Chapter-3_Fig16"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 17",
+      "repositories": [
+        "Chapter-3_Fig17"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 18",
+      "repositories": [
+        "Chapter-3_Fig18"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 19",
+      "repositories": [
+        "Chapter-3_Fig19"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 2",
+      "repositories": [
+        "Chapter-3_Fig02b",
+        "Chapter-3_Figure3.2a"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 3 / Figure 20",
+      "repositories": [
+        "Chapter-3_Fig20"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 21",
+      "repositories": [
+        "Chapter-3_Fig21"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 22",
+      "repositories": [
+        "Chapter-3_Fig22"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 23",
+      "repositories": [
+        "Chapter-3_Fig23"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 24",
+      "repositories": [
+        "Chapter-3_Fig24"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 25",
+      "repositories": [
+        "Chapter-3_Fig25"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 26",
+      "repositories": [
+        "Chapter-3_Fig26"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 27",
+      "repositories": [
+        "Chapter-3_Fig27"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 28",
+      "repositories": [
+        "Chapter-3_Fig28"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 29",
+      "repositories": [
+        "Chapter-3_Figure3.29"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 3 / Figure 3",
+      "repositories": [
+        "Chapter-3_Fig03"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 30",
+      "repositories": [
+        "Chapter-3_Fig30"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 31",
+      "repositories": [
+        "Chapter-3_Fig31"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 32",
+      "repositories": [
+        "Chapter-3_Fig32"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 33",
+      "repositories": [
+        "Chapter-3_Fig33"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 34",
+      "repositories": [
+        "Chapter-3_Fig34"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 35",
+      "repositories": [
+        "Chapter-3_Fig35"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 36",
+      "repositories": [
+        "Chapter-3_Fig36"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 37",
+      "repositories": [
+        "Chapter-3_Fig37"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 39",
+      "repositories": [
+        "Chapter-3_Fig39"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 4",
+      "repositories": [
+        "Chapter-3_Fig04"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 40",
+      "repositories": [
+        "Chapter-3_Fig40"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 41",
+      "repositories": [
+        "Chapter-3_Fig41"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 42",
+      "repositories": [
+        "Chapter-3_Fig42"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 43",
+      "repositories": [
+        "Chapter-3_Fig43"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 5",
+      "repositories": [
+        "Chapter-3_Fig05"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 6",
+      "repositories": [
+        "Chapter-3_Fig06"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 7",
+      "repositories": [
+        "Chapter-3_Fig07"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 8",
+      "repositories": [
+        "Chapter-3_Fig08"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 3 / Figure 9",
+      "repositories": [
+        "Chapter-3_Fig09"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 4 / CCBOX4.1 / Figure 1",
+      "repositories": [
+        "Chapter-4_CCBOX4.1_Fig1"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 4 / Figure 11",
+      "repositories": [
+        "Chapter-4_Figure4.11"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 5 / Figure 26",
+      "repositories": [
+        "Chapter-5_Fig26"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 5 / Figure 27",
+      "repositories": [
+        "Chapter-5_Fig27"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 5 / Figure 30",
+      "repositories": [
+        "Chapter-5_Fig30"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 5 / Figure 4",
+      "repositories": [
+        "Chapter-5_Fig04"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 10",
+      "repositories": [
+        "Chapter-6_Fig10"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 11",
+      "repositories": [
+        "Chapter-6_Fig11"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 12",
+      "repositories": [
+        "Chapter-6_Fig12_22_24"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 13",
+      "repositories": [
+        "Chapter-6_Fig13"
+      ],
+      "has_bundled_code": false
+    },
+    {
+      "label": "Chapter 6 / Figure 14",
+      "repositories": [
+        "Chapter-6_Fig14"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 15",
+      "repositories": [
+        "Chapter-6_Fig15"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 16",
+      "repositories": [
+        "Chapter-6_Fig16"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 18",
+      "repositories": [
+        "Chapter-6_Fig18"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 19",
+      "repositories": [
+        "Chapter-6_Fig19"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 20",
+      "repositories": [
+        "Chapter-6_Fig20"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 21",
+      "repositories": [
+        "Chapter-6_Fig21"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 22",
+      "repositories": [
+        "Chapter-6_Fig12_22_24"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 23",
+      "repositories": [
+        "Chapter-6_Fig23"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 24",
+      "repositories": [
+        "Chapter-6_Fig12_22_24"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 4",
+      "repositories": [
+        "Chapter-6_Fig04"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 6",
+      "repositories": [
+        "Chapter-6_Fig06"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 7",
+      "repositories": [
+        "Chapter-6_Fig7"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 8",
+      "repositories": [
+        "Chapter-6_Fig8"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 6 / Figure 9",
+      "repositories": [
+        "Chapter-6_Fig09"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Box2 / Figure 1",
+      "repositories": [
+        "Chapter-7_Box2_Fig01"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 10",
+      "repositories": [
+        "Chapter-7_Fig10"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 16",
+      "repositories": [
+        "Chapter-7_Fig16"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 18",
+      "repositories": [
+        "Chapter-7_Fig18"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 21",
+      "repositories": [
+        "Chapter-7_Fig21"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 22",
+      "repositories": [
+        "Chapter-7_Fig22"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 3",
+      "repositories": [
+        "Chapter-7_Fig03"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 4",
+      "repositories": [
+        "Chapter-7_Fig04"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 5",
+      "repositories": [
+        "Chapter-7_Fig05"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 6",
+      "repositories": [
+        "Chapter-7_Fig06"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 7 / Figure 7",
+      "repositories": [
+        "Chapter-7_Fig07"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Chapter 9 / CCBox-9.1 / Figure 1",
+      "repositories": [
+        "Chapter-9_CCBox-9.1_Fig1"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Box 4 / Figure 1",
+      "repositories": [
+        "Box_TS4_Fig1"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Box 5 / Figure 1",
+      "repositories": [
+        "TS_Box5_Figure1"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Figure 12",
+      "repositories": [
+        "TS_Fig12"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Figure 17",
+      "repositories": [
+        "TS_Fig17"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Figure 18",
+      "repositories": [
+        "TS_Fig18"
+      ],
+      "has_bundled_code": true
+    },
+    {
+      "label": "Technical Summary / Figure 24",
+      "repositories": [
+        "TS_Fig24"
+      ],
+      "has_bundled_code": true
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "Atlas",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 6098
+    },
+    {
+      "repository": "Box_TS4_Fig1",
+      "figure_targets": [
+        "Technical Summary / Box 4 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "CEDA_IPCC_AR6_WGI_Figures_data",
+      "figure_targets": [],
+      "has_bundled_code": false,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-10_CCB4_Fig1",
+      "figure_targets": [
+        "Chapter 10 / CCB4 / Figure 1"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig06",
+      "figure_targets": [
+        "Chapter 10 / Figure 6"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig10",
+      "figure_targets": [
+        "Chapter 10 / Figure 10"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig11",
+      "figure_targets": [
+        "Chapter 10 / Figure 11"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig12",
+      "figure_targets": [
+        "Chapter 10 / Figure 12"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig13",
+      "figure_targets": [
+        "Chapter 10 / Figure 13"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig18",
+      "figure_targets": [
+        "Chapter 10 / Figure 18"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig19",
+      "figure_targets": [
+        "Chapter 10 / Figure 19"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig20",
+      "figure_targets": [
+        "Chapter 10 / Figure 20"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-10_Fig21",
+      "figure_targets": [
+        "Chapter 10 / Figure 21"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-11",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 351
+    },
+    {
+      "repository": "Chapter-12",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 1384
+    },
+    {
+      "repository": "Chapter-2_Fig02",
+      "figure_targets": [
+        "Chapter 2 / Figure 2"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-2_Fig03",
+      "figure_targets": [
+        "Chapter 2 / Figure 3"
+      ],
+      "has_bundled_code": true,
+      "index_records": 9
+    },
+    {
+      "repository": "Chapter-2_Fig07",
+      "figure_targets": [
+        "Chapter 2 / Figure 7"
+      ],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "Chapter-2_Fig08",
+      "figure_targets": [
+        "Chapter 2 / Figure 8"
+      ],
+      "has_bundled_code": true,
+      "index_records": 9
+    },
+    {
+      "repository": "Chapter-2_Fig09",
+      "figure_targets": [
+        "Chapter 2 / Figure 9"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-2_Fig10",
+      "figure_targets": [
+        "Chapter 2 / Figure 10"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-2_Fig11",
+      "figure_targets": [
+        "Chapter 2 / Figure 11"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-2_Fig12",
+      "figure_targets": [
+        "Chapter 2 / Figure 12"
+      ],
+      "has_bundled_code": true,
+      "index_records": 19
+    },
+    {
+      "repository": "Chapter-2_Fig13",
+      "figure_targets": [
+        "Chapter 2 / Figure 13"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-2_Fig14",
+      "figure_targets": [
+        "Chapter 2 / Figure 14"
+      ],
+      "has_bundled_code": true,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-2_Fig15",
+      "figure_targets": [
+        "Chapter 2 / Figure 15"
+      ],
+      "has_bundled_code": true,
+      "index_records": 16
+    },
+    {
+      "repository": "Chapter-2_Fig16",
+      "figure_targets": [
+        "Chapter 2 / Figure 16"
+      ],
+      "has_bundled_code": true,
+      "index_records": 9
+    },
+    {
+      "repository": "Chapter-2_Fig17",
+      "figure_targets": [
+        "Chapter 2 / Figure 17"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-2_Fig18",
+      "figure_targets": [
+        "Chapter 2 / Figure 18"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-2_Fig19",
+      "figure_targets": [
+        "Chapter 2 / Figure 19"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-2_Fig23",
+      "figure_targets": [
+        "Chapter 2 / Figure 23"
+      ],
+      "has_bundled_code": true,
+      "index_records": 10
+    },
+    {
+      "repository": "Chapter-2_Fig27",
+      "figure_targets": [
+        "Chapter 2 / Figure 27"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-2_Fig28",
+      "figure_targets": [
+        "Chapter 2 / Figure 28"
+      ],
+      "has_bundled_code": false,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-2_Fig29",
+      "figure_targets": [
+        "Chapter 2 / Figure 29"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-2_Fig31",
+      "figure_targets": [
+        "Chapter 2 / Figure 31"
+      ],
+      "has_bundled_code": true,
+      "index_records": 10
+    },
+    {
+      "repository": "Chapter-2_Fig35",
+      "figure_targets": [
+        "Chapter 2 / Figure 35"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-2_Fig36",
+      "figure_targets": [
+        "Chapter 2 / Figure 36"
+      ],
+      "has_bundled_code": true,
+      "index_records": 6
+    },
+    {
+      "repository": "Chapter-2_Fig37",
+      "figure_targets": [
+        "Chapter 2 / Figure 37"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-2_Fig38",
+      "figure_targets": [
+        "Chapter 2 / Figure 38"
+      ],
+      "has_bundled_code": true,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_CCBOX3.1_Fig1",
+      "figure_targets": [
+        "Chapter 3 / CCBOX3.1 / Figure 1"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_CCBOX3.2_Fig1",
+      "figure_targets": [
+        "Chapter 3 / CCBOX3.2 / Figure 1"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_FAQ2_Fig01",
+      "figure_targets": [
+        "Chapter 3 / FAQ2 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-3_FAQ3_Fig01",
+      "figure_targets": [
+        "Chapter 3 / FAQ3 / Figure 1"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig02b",
+      "figure_targets": [
+        "Chapter 3 / Figure 2"
+      ],
+      "has_bundled_code": true,
+      "index_records": 39
+    },
+    {
+      "repository": "Chapter-3_Fig03",
+      "figure_targets": [
+        "Chapter 3 / Figure 3"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig04",
+      "figure_targets": [
+        "Chapter 3 / Figure 4"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig05",
+      "figure_targets": [
+        "Chapter 3 / Figure 5"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig06",
+      "figure_targets": [
+        "Chapter 3 / Figure 6"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig07",
+      "figure_targets": [
+        "Chapter 3 / Figure 7"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig08",
+      "figure_targets": [
+        "Chapter 3 / Figure 8"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig09",
+      "figure_targets": [
+        "Chapter 3 / Figure 9"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig10",
+      "figure_targets": [
+        "Chapter 3 / Figure 10"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig11",
+      "figure_targets": [
+        "Chapter 3 / Figure 11"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-3_Fig12",
+      "figure_targets": [
+        "Chapter 3 / Figure 12"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig13",
+      "figure_targets": [
+        "Chapter 3 / Figure 13"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig14",
+      "figure_targets": [
+        "Chapter 3 / Figure 14"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig15",
+      "figure_targets": [
+        "Chapter 3 / Figure 15"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig16",
+      "figure_targets": [
+        "Chapter 3 / Figure 16"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig17",
+      "figure_targets": [
+        "Chapter 3 / Figure 17"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig18",
+      "figure_targets": [
+        "Chapter 3 / Figure 18"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig19",
+      "figure_targets": [
+        "Chapter 3 / Figure 19"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig20",
+      "figure_targets": [
+        "Chapter 3 / Figure 20"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig21",
+      "figure_targets": [
+        "Chapter 3 / Figure 21"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig22",
+      "figure_targets": [
+        "Chapter 3 / Figure 22"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig23",
+      "figure_targets": [
+        "Chapter 3 / Figure 23"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig24",
+      "figure_targets": [
+        "Chapter 3 / Figure 24"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig25",
+      "figure_targets": [
+        "Chapter 3 / Figure 25"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig26",
+      "figure_targets": [
+        "Chapter 3 / Figure 26"
+      ],
+      "has_bundled_code": false,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-3_Fig27",
+      "figure_targets": [
+        "Chapter 3 / Figure 27"
+      ],
+      "has_bundled_code": false,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-3_Fig28",
+      "figure_targets": [
+        "Chapter 3 / Figure 28"
+      ],
+      "has_bundled_code": false,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-3_Fig30",
+      "figure_targets": [
+        "Chapter 3 / Figure 30"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig31",
+      "figure_targets": [
+        "Chapter 3 / Figure 31"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig32",
+      "figure_targets": [
+        "Chapter 3 / Figure 32"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig33",
+      "figure_targets": [
+        "Chapter 3 / Figure 33"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig34",
+      "figure_targets": [
+        "Chapter 3 / Figure 34"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig35",
+      "figure_targets": [
+        "Chapter 3 / Figure 35"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig36",
+      "figure_targets": [
+        "Chapter 3 / Figure 36"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig37",
+      "figure_targets": [
+        "Chapter 3 / Figure 37"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Fig39",
+      "figure_targets": [
+        "Chapter 3 / Figure 39"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig40",
+      "figure_targets": [
+        "Chapter 3 / Figure 40"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig41",
+      "figure_targets": [
+        "Chapter 3 / Figure 41"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig42",
+      "figure_targets": [
+        "Chapter 3 / Figure 42"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-3_Fig43",
+      "figure_targets": [
+        "Chapter 3 / Figure 43"
+      ],
+      "has_bundled_code": false,
+      "index_records": 2
+    },
+    {
+      "repository": "Chapter-3_Figure3.29",
+      "figure_targets": [
+        "Chapter 3 / Figure 29"
+      ],
+      "has_bundled_code": true,
+      "index_records": 23
+    },
+    {
+      "repository": "Chapter-3_Figure3.2a",
+      "figure_targets": [
+        "Chapter 3 / Figure 2"
+      ],
+      "has_bundled_code": true,
+      "index_records": 9
+    },
+    {
+      "repository": "Chapter-4_CCBOX4.1_Fig1",
+      "figure_targets": [
+        "Chapter 4 / CCBOX4.1 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-4_Figure4.11",
+      "figure_targets": [
+        "Chapter 4 / Figure 11"
+      ],
+      "has_bundled_code": false,
+      "index_records": 35
+    },
+    {
+      "repository": "Chapter-5_Fig04",
+      "figure_targets": [
+        "Chapter 5 / Figure 4"
+      ],
+      "has_bundled_code": true,
+      "index_records": 8
+    },
+    {
+      "repository": "Chapter-5_Fig26",
+      "figure_targets": [
+        "Chapter 5 / Figure 26"
+      ],
+      "has_bundled_code": false,
+      "index_records": 1
+    },
+    {
+      "repository": "Chapter-5_Fig27",
+      "figure_targets": [
+        "Chapter 5 / Figure 27"
+      ],
+      "has_bundled_code": false,
+      "index_records": 1
+    },
+    {
+      "repository": "Chapter-5_Fig30",
+      "figure_targets": [
+        "Chapter 5 / Figure 30"
+      ],
+      "has_bundled_code": false,
+      "index_records": 1
+    },
+    {
+      "repository": "Chapter-6_Fig04",
+      "figure_targets": [
+        "Chapter 6 / Figure 4"
+      ],
+      "has_bundled_code": true,
+      "index_records": 14
+    },
+    {
+      "repository": "Chapter-6_Fig06",
+      "figure_targets": [
+        "Chapter 6 / Figure 6"
+      ],
+      "has_bundled_code": true,
+      "index_records": 12
+    },
+    {
+      "repository": "Chapter-6_Fig09",
+      "figure_targets": [
+        "Chapter 6 / Figure 9"
+      ],
+      "has_bundled_code": true,
+      "index_records": 4
+    },
+    {
+      "repository": "Chapter-6_Fig10",
+      "figure_targets": [
+        "Chapter 6 / Figure 10"
+      ],
+      "has_bundled_code": true,
+      "index_records": 27
+    },
+    {
+      "repository": "Chapter-6_Fig11",
+      "figure_targets": [
+        "Chapter 6 / Figure 11"
+      ],
+      "has_bundled_code": true,
+      "index_records": 15
+    },
+    {
+      "repository": "Chapter-6_Fig12_22_24",
+      "figure_targets": [
+        "Chapter 6 / Figure 12",
+        "Chapter 6 / Figure 22",
+        "Chapter 6 / Figure 24"
+      ],
+      "has_bundled_code": true,
+      "index_records": 441
+    },
+    {
+      "repository": "Chapter-6_Fig13",
+      "figure_targets": [
+        "Chapter 6 / Figure 13"
+      ],
+      "has_bundled_code": false,
+      "index_records": 3
+    },
+    {
+      "repository": "Chapter-6_Fig14",
+      "figure_targets": [
+        "Chapter 6 / Figure 14"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-6_Fig15",
+      "figure_targets": [
+        "Chapter 6 / Figure 15"
+      ],
+      "has_bundled_code": true,
+      "index_records": 22
+    },
+    {
+      "repository": "Chapter-6_Fig16",
+      "figure_targets": [
+        "Chapter 6 / Figure 16"
+      ],
+      "has_bundled_code": true,
+      "index_records": 17
+    },
+    {
+      "repository": "Chapter-6_Fig18",
+      "figure_targets": [
+        "Chapter 6 / Figure 18"
+      ],
+      "has_bundled_code": true,
+      "index_records": 10
+    },
+    {
+      "repository": "Chapter-6_Fig19",
+      "figure_targets": [
+        "Chapter 6 / Figure 19"
+      ],
+      "has_bundled_code": true,
+      "index_records": 10
+    },
+    {
+      "repository": "Chapter-6_Fig20",
+      "figure_targets": [
+        "Chapter 6 / Figure 20"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-6_Fig21",
+      "figure_targets": [
+        "Chapter 6 / Figure 21"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-6_Fig23",
+      "figure_targets": [
+        "Chapter 6 / Figure 23"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-6_Fig7",
+      "figure_targets": [
+        "Chapter 6 / Figure 7"
+      ],
+      "has_bundled_code": true,
+      "index_records": 11
+    },
+    {
+      "repository": "Chapter-6_Fig8",
+      "figure_targets": [
+        "Chapter 6 / Figure 8"
+      ],
+      "has_bundled_code": true,
+      "index_records": 9
+    },
+    {
+      "repository": "Chapter-6_SM3",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "Chapter-6_SM4",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 6
+    },
+    {
+      "repository": "Chapter-6_SM5",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 6
+    },
+    {
+      "repository": "Chapter-7",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 1267
+    },
+    {
+      "repository": "Chapter-7_Box2_Fig01",
+      "figure_targets": [
+        "Chapter 7 / Box2 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 6
+    },
+    {
+      "repository": "Chapter-7_Fig03",
+      "figure_targets": [
+        "Chapter 7 / Figure 3"
+      ],
+      "has_bundled_code": true,
+      "index_records": 8
+    },
+    {
+      "repository": "Chapter-7_Fig04",
+      "figure_targets": [
+        "Chapter 7 / Figure 4"
+      ],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "Chapter-7_Fig05",
+      "figure_targets": [
+        "Chapter 7 / Figure 5"
+      ],
+      "has_bundled_code": true,
+      "index_records": 8
+    },
+    {
+      "repository": "Chapter-7_Fig06",
+      "figure_targets": [
+        "Chapter 7 / Figure 6"
+      ],
+      "has_bundled_code": true,
+      "index_records": 8
+    },
+    {
+      "repository": "Chapter-7_Fig07",
+      "figure_targets": [
+        "Chapter 7 / Figure 7"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "Chapter-7_Fig10",
+      "figure_targets": [
+        "Chapter 7 / Figure 10"
+      ],
+      "has_bundled_code": true,
+      "index_records": 5
+    },
+    {
+      "repository": "Chapter-7_Fig16",
+      "figure_targets": [
+        "Chapter 7 / Figure 16"
+      ],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "Chapter-7_Fig18",
+      "figure_targets": [
+        "Chapter 7 / Figure 18"
+      ],
+      "has_bundled_code": true,
+      "index_records": 10
+    },
+    {
+      "repository": "Chapter-7_Fig21",
+      "figure_targets": [
+        "Chapter 7 / Figure 21"
+      ],
+      "has_bundled_code": true,
+      "index_records": 6
+    },
+    {
+      "repository": "Chapter-7_Fig22",
+      "figure_targets": [
+        "Chapter 7 / Figure 22"
+      ],
+      "has_bundled_code": true,
+      "index_records": 13
+    },
+    {
+      "repository": "Chapter-8",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 22
+    },
+    {
+      "repository": "Chapter-9",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 2160
+    },
+    {
+      "repository": "Chapter-9_CCBox-9.1_Fig1",
+      "figure_targets": [
+        "Chapter 9 / CCBox-9.1 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 8
+    },
+    {
+      "repository": "Cross-Chapter-Box",
+      "figure_targets": [],
+      "has_bundled_code": false,
+      "index_records": 19
+    },
+    {
+      "repository": "DDC-AR6-CMIP6-Data-Archival",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 112
+    },
+    {
+      "repository": "PMIP_for_AR6_Interactive_Atlas",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 150
+    },
+    {
+      "repository": "TS_Box5_Figure1",
+      "figure_targets": [
+        "Technical Summary / Box 5 / Figure 1"
+      ],
+      "has_bundled_code": true,
+      "index_records": 11
+    },
+    {
+      "repository": "TS_Fig12",
+      "figure_targets": [
+        "Technical Summary / Figure 12"
+      ],
+      "has_bundled_code": true,
+      "index_records": 111
+    },
+    {
+      "repository": "TS_Fig17",
+      "figure_targets": [
+        "Technical Summary / Figure 17"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "TS_Fig18",
+      "figure_targets": [
+        "Technical Summary / Figure 18"
+      ],
+      "has_bundled_code": true,
+      "index_records": 27
+    },
+    {
+      "repository": "TS_Fig24",
+      "figure_targets": [
+        "Technical Summary / Figure 24"
+      ],
+      "has_bundled_code": true,
+      "index_records": 7
+    },
+    {
+      "repository": "colormaps",
+      "figure_targets": [],
+      "has_bundled_code": true,
+      "index_records": 277
+    }
+  ]
+}

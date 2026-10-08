@@ -8,6 +8,8 @@ The bundle is intentionally selective. Large climate inputs, rendered plots, and
 
 Language metadata can describe the repository’s primary language instead of the individual file. Original index fields have been preserved rather than silently rewritten. Source paths also contain Windows separators; the retrieval code provides a normalized local path without changing the index.
 
+Source-coverage counts and the current retrieval techniques are documented in [corpus coverage and methodology](corpus-methodology.md), with a reproducible target-to-repository inventory.
+
 ## How to credit a figure
 
 For a figure adapted from an upstream example, record:

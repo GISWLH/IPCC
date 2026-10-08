@@ -4,7 +4,7 @@ The project has three layers: the assistant skill, the local retrieval implement
 
 ## Where work belongs
 
-- **Retrieval behavior:** `scripts/ipcc_rag_search.py` exposes `search()` and source-resolution helpers. `scripts/search_ipcc_examples.py` is the concise user interface. Tests live in `tests/test_search.py`.
+- **Retrieval behavior:** `scripts/ipcc_rag_search.py` exposes `search()` and source-resolution helpers. `scripts/search_ipcc_examples.py` is the concise user interface. Tests live in `tests/test_search.py`. `scripts/audit_corpus.py` generates the coverage inventory; its counting rules are checked in `tests/test_corpus_audit.py`.
 - **Figure examples:** `examples/generate.py` owns synthetic data, plotting, export, and provenance recording. Supporting small inputs belong in `examples/data/` with source and checksum records.
 - **Presentation:** `assets/hero.png` is the header identity. `assets/demos/` contains only the curated README previews. `assets/README.md` explains their generation.
 - **Local results:** `results/demos/` receives full-resolution exports and the run manifest. These are ignored by Git; curated previews remain reviewable in `assets/demos/`.
@@ -26,3 +26,7 @@ The ranker is a lightweight keyword scorer with path and family boosts and docum
 There are no repository build requirements for retrieval. The optional demos use the pinned top-level packages in `requirements-demo.txt`. Upstream chapter environment files are archival inputs and are not installation instructions for this project.
 
 The original index-building and packaging scripts mentioned in earlier documentation are not distributed here. Until a maintained regeneration pipeline is added, treat index updates as deliberate data releases: preserve provenance, document the source revision, and run retrieval checks. Do not advertise an unavailable regeneration command.
+
+## Public overview and language navigation
+
+`README.md`, `README.zh-CN.md`, and `README.ja.md` provide equivalent English, Simplified Chinese, and Japanese entry points. They use ordinary GitHub links rather than scripts to switch languages. The header, badges, figures, commands, and audited coverage claims are shared; technical guides remain in English. The README language does not change the underlying keyword search tokenizer or translate the source corpus.
