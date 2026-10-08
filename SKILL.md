@@ -28,18 +28,21 @@ generate aesthetically strong plotting code with provenance.
 
 ## Retrieval
 
-Use:
+Run from the installed skill directory or repository root:
 
 ```bash
-python skills/ipcc-plotting-style/scripts/search_ipcc_examples.py "regional map hatching AR6 regions" --family map
-python skills/ipcc-plotting-style/scripts/search_ipcc_examples.py "time series scenario uncertainty" --family time_series
-python skills/ipcc-plotting-style/scripts/search_ipcc_examples.py "colormap colorbar legend" --family color_style
+python scripts/search_ipcc_examples.py "regional map hatching AR6 regions" --family map
+python scripts/search_ipcc_examples.py "time series scenario uncertainty" --family time_series
+python scripts/search_ipcc_examples.py "colormap colorbar legend" --family color_style
 ```
 
 The skill is self-contained for retrieval: `references/rag/ipcc_chunks.jsonl`
-and `scripts/ipcc_rag_search.py` are bundled inside this skill. If the full
-IPCC-skills repository is also present, the search entry point can still fall
-back to the repository-level RAG index.
+and `scripts/ipcc_rag_search.py` are bundled inside this skill. The main search
+command returns existing bundled code and the best chunk per file. Use
+`--json` for provenance and normalized source paths; `--all-types` also includes
+references to excluded datasets, documents, and output artifacts. Resolve
+`source_path` relative to `references/source-code/IPCC-WG1/` and inspect the
+source before adapting it.
 
 For vague requests like "use IPCC style", first search `color_style`, then infer
 the main plot family from the user's data shape.
@@ -84,3 +87,12 @@ Load these only as needed:
 - `references/evidence/raster_stripes.md`
 - `references/evidence/bar_hist_density.md`
 - `references/evidence/scatter.md`
+
+## Runnable Demos
+
+See `examples/README.md` and `examples/generate.py` for synthetic scenario, map,
+and ensemble figures. Install `requirements-demo.txt` only when rendering these
+demos; retrieval itself has no third-party dependencies. Generated data and
+source references are written to `results/demos/manifest.json`. Preserve visible
+synthetic-data labels until real inputs, units, baselines, and uncertainty
+definitions have replaced every illustrative assumption.

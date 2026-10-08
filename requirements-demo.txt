@@ -1,0 +1,5 @@
+# Optional: retrieval and its tests use only the Python standard library.
+# Versions validated with Python 3.12. Transitive dependencies are resolved by pip.
+numpy==2.3.5
+matplotlib==3.10.8
+Cartopy==0.26.0

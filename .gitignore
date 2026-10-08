@@ -6,3 +6,15 @@ Thumbs.db
 .ruff_cache/
 .mypy_cache/
 
+
+# Local environments and editor caches
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Reproducible outputs; curated PNG previews are tracked separately
+/results/*
+!/results/README.md
+/assets/demos/manifest.json

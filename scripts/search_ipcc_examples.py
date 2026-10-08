@@ -1,63 +1,27 @@
 #!/usr/bin/env python3
+"""Find usable, source-grounded IPCC plotting examples from any working directory."""
 from __future__ import annotations
 
 import argparse
-import subprocess
-import sys
-from pathlib import Path
-
-
-FAMILIES = {
-    "map",
-    "time_series",
-    "distribution",
-    "uncertainty",
-    "multi_panel",
-    "color_style",
-    "raster_stripes",
-    "bar_hist_density",
-    "scatter",
-}
-
-
-def find_search_script() -> Path:
-    here = Path(__file__).resolve()
-    local_script = here.with_name("ipcc_rag_search.py")
-    local_index = here.parents[1] / "references" / "rag" / "ipcc_chunks.jsonl"
-    if local_script.exists() and local_index.exists():
-        return local_script
-
-    for parent in here.parents:
-        repo_script = parent / "scripts" / "ipcc_rag_search.py"
-        repo_index = parent / "manifests" / "rag" / "ipcc_chunks.jsonl"
-        if repo_script.exists() and repo_index.exists():
-            return repo_script
-    cwd = Path.cwd().resolve()
-    for parent in [cwd, *cwd.parents]:
-        repo_script = parent / "scripts" / "ipcc_rag_search.py"
-        repo_index = parent / "manifests" / "rag" / "ipcc_chunks.jsonl"
-        if repo_script.exists() and repo_index.exists():
-            return repo_script
-    raise SystemExit("Cannot find ipcc_rag_search.py with a matching RAG index")
+from ipcc_rag_search import FAMILIES, positive_int, print_results, search
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("query", nargs="*", help="Search query.")
-    parser.add_argument("--family", choices=sorted(FAMILIES), default="")
-    parser.add_argument("--limit", type=int, default=10)
-    parser.add_argument("--json", action="store_true")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('query', nargs='*', help='Search keywords; defaults to the selected family.')
+    parser.add_argument('--family', choices=FAMILIES, default='')
+    parser.add_argument('--limit', type=positive_int, default=5)
+    parser.add_argument('--all-types', action='store_true', help='Also include references to omitted data, text, and output artifacts.')
+    parser.add_argument('--json', action='store_true', help='Emit JSONL with provenance and source availability.')
     args = parser.parse_args()
-
-    script = find_search_script()
-    query = " ".join(args.query) or args.family or "IPCC plotting style"
-    cmd = [sys.executable, str(script), query, "--limit", str(args.limit)]
-    if args.family:
-        cmd.extend(["--family", args.family])
-    if args.json:
-        cmd.append("--json")
-    raise SystemExit(subprocess.call(cmd))
+    query = ' '.join(args.query) or args.family or 'IPCC plotting style'
+    try:
+        results = search(query, family=args.family, limit=args.limit,
+                         source_only=not args.all_types, unique_files=True)
+    except (OSError, ValueError) as exc:
+        parser.exit(1, f'Search failed: {exc}\n')
+    print_results(results, as_json=args.json)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
