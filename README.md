@@ -1,3 +1,7 @@
+<!-- readme-visual-refresh:banner -->
+![IPCC — hand-drawn project banner](assets/readme/banner.svg)
+<!-- /readme-visual-refresh:banner -->
+
 <p align="center">
   <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a> · <a href="README.ja.md">日本語</a>
 </p>
@@ -142,3 +146,7 @@ Cite the upstream repository, source path, commit, and original authors when ada
 The source archive retains heterogeneous upstream terms; no blanket project-wide license has been declared. Consult [provenance and licensing](docs/provenance.md) before redistribution. Natural Earth geography is public domain, with its exact source recorded [here](examples/data/README.md).
 
 If this workflow supports your research, a GitHub star helps others discover it. Reproducible examples, issue reports, and careful source attribution make the project more useful to the community.
+
+<!-- readme-visual-refresh:artwork-source -->
+[Editable banner artwork · Excalidraw](assets/readme/banner.excalidraw)
+<!-- /readme-visual-refresh:artwork-source -->
